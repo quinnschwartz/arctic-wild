@@ -4,15 +4,6 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-.quiz1 {
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto; }
-  .quiz1::after {
-    clear: both;
-    content: "";
-    display: block; }
-
 img.header {
   height: 200px;
   width: 100%;
@@ -20,7 +11,14 @@ img.header {
   object-position: 75% 25%;
   overflow: hidden;
   border: 3px solid white;
-  display: block;
+  display: block; }
+
+.quiz1 {
+  position: absolute;
+  top: 20px;
+  left: 5%;
+  right: 5%;
+  max-width: 500px;
   margin: auto; }
 
 .icons {
@@ -32,13 +30,14 @@ img.header {
 
 .bg-1 {
   width: 100%;
-  height: 1000px;
+  height: 715px;
   display: block;
   position: relative; }
   .bg-1::after {
     content: "";
     background: url(../img/pickard.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     opacity: 0.5;
     top: 0;
