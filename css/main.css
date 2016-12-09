@@ -14,10 +14,13 @@ html {
     display: block; }
 
 img.header {
-  height: 150px;
-  width: 80%;
+  height: 200px;
+  width: 50%;
   border: 5px solid white;
-  margin: 0 auto; }
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 30px; }
 
 .icons {
   width: 30px; }
