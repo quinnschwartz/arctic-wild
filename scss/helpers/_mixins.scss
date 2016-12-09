@@ -1,0 +1,71 @@
+@mixin transparent-bg1 {
+  width: 100%;
+  height: 1000px;
+  display: block;
+  position: relative;
+  &::after {
+    content: "";
+    background: $bg-1;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+@mixin transparent-bg2 {
+  width: 100%;
+  height: 500px;
+  display: block;
+  position: relative;
+  &::after {
+    content: "";
+    background: $bg-2;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+@mixin transparent-bg3 {
+  width: 100%;
+  height: 500px;
+  display: block;
+  position: relative;
+  &::after {
+    content: "";
+    background: $bg-3;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+@mixin transparent-bg4 {
+  width: 100%;
+  height: 500px;
+  display: block;
+  position: relative;
+  &::after {
+    content: "";
+    background: $bg-4;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+}
