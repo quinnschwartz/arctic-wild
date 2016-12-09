@@ -75,10 +75,13 @@
 //header mixins
  @mixin header {
   height: 200px;
-  width: 50%;
-  border: 5px solid white;
+  width: 80%;
+  object-fit: cover;
+  object-position: 75% 25%;
+  overflow: hidden;
+  border: 3px solid white;
   display: block;
   margin: auto;
-  position: relative;
-  top: 30px;
+  // position: relative;
+  // top: 30px;
 }
