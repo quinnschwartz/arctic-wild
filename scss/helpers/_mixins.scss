@@ -8,6 +8,8 @@
   &::after {
     content: "";
     background: $bg-1;
+    background-repeat: no-repeat;
+    background-position: center;
     opacity: 0.5;
     top: 0;
     left: 0;
@@ -75,7 +77,7 @@
 //header mixins
  @mixin header {
   height: 200px;
-  width: 80%;
+  width: 100%;
   object-fit: cover;
   object-position: 75% 25%;
   overflow: hidden;

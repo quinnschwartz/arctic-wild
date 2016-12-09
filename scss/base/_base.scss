@@ -1,4 +1,16 @@
-.quiz1 {
+// reset
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+
+
+
+
+
+.bg-1 {
   @include transparent-bg1;
 }
 
