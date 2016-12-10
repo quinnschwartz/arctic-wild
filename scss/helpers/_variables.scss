@@ -1,14 +1,16 @@
 // background images
-$bg-1: url(../img/pickard.jpg);
-$bg-2: url(../img/nerd.jpg);
-$bg-3: url(../img/buddha.jpg);
-$bg-4: url(../img/vicious.jpg);
+$bg-image-1: url(../img/pickard.jpg);
+$bg-image-2: url(../img/nerd.jpg);
+$bg-image-3: url(../img/buddha.jpg);
+$bg-image-4: url(../img/vicious.jpg);
 
 
 //colors
 $white: white;
-$blue: rgba(0, 56, 255, 0.65);
+$bg-color-1: rgba(0, 56, 255, 0.65);
+$bg-color-2: rgba(5, 108, 79, 0.65);
+$bg-color-3: rgba(110, 102, 5, 0.65);
+$bg-color-4: rgba(237, 15, 62, 0.65);
 
 //color functions
-$bg-color1: darken($blue, 20%);
-$off-white: darken($white, 10%);
+$off-white: darken($white, 20%);

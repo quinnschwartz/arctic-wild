@@ -6,20 +6,22 @@
 
 // background images
 .bg-1 {
-  @include transparent-bg1;
+  @include transparent-bg-1;
 }
 
-// .bg-2 {
-//   @include transparent-bg2;
-// }
-//
-// .bg-3 {
-//   @include transparent-bg3;
-// }
-//
-// .bg-4 {
-//   @include transparent-bg4;
-// }
+.bg-2 {
+  @include transparent-bg-2;
+}
+
+.bg-3 {
+  @include transparent-bg-3;
+}
+
+.bg-4 {
+  @include transparent-bg-4;
+}
+
+//middle of body
 
 .play-send > img, .play-send > p {
   display: inline-block;
