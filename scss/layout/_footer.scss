@@ -1,0 +1,9 @@
+.footer-left {
+  float: left;
+  @include footer;
+}
+
+.footer-right {
+  float: right;
+  @include footer;
+}

@@ -7,3 +7,8 @@ $bg-4: url(../img/vicious.jpg);
 
 //colors
 $white: white;
+$blue: rgba(0, 56, 255, 0.65);
+
+//color functions
+$bg-color1: darken($blue, 20%);
+$off-white: darken($white, 10%);

@@ -1,3 +1,11 @@
-.button {
-  @include button;
+.play-button {
+  @include play-button;
+  margin-right: 10px;
+  margin-bottom: 50px;
 }
+
+// .send-button {
+//   @include send-button;
+//   margin-right: 10px;
+//   margin-bottom: 50px;
+// }
