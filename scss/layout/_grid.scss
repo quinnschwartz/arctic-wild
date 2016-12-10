@@ -6,6 +6,8 @@
   @include span-columns(12);
   @media #{$brk-medium} {
     @include span-columns(3 of 12);
+    width: 240px;
+    margin: 0;
   }
 }
 
@@ -13,6 +15,8 @@
   @include span-columns(12);
   @media #{$brk-medium} {
     @include span-columns(3 of 12);
+    width: 240px;
+    margin: 0;
   }
 }
 
@@ -20,6 +24,8 @@
   @include span-columns(12);
   @media #{$brk-medium} {
     @include span-columns(3 of 12);
+    width: 240px;
+    margin: 0;
   }
 }
 
@@ -27,5 +33,7 @@
   @include span-columns(12);
   @media #{$brk-medium} {
     @include span-columns(3 of 12);
+    width: 240px;
+    margin: 0;
   }
 }
