@@ -12,6 +12,15 @@ html {
   max-width: 500px;
   margin: auto; }
 
+.outer-container {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto; }
+  .outer-container::after {
+    clear: both;
+    content: "";
+    display: block; }
+
 .footer-left {
   float: left;
   color: #cccccc;
@@ -40,6 +49,78 @@ img.header {
   border: 3px solid white;
   display: block; }
 
+.row {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .row:last-child {
+    margin-right: 0; }
+
+.bg-1 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .bg-1:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 740px) {
+    .bg-1 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .bg-1:last-child {
+        margin-right: 0; } }
+
+.bg-2 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .bg-2:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 740px) {
+    .bg-2 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .bg-2:last-child {
+        margin-right: 0; } }
+
+.bg-3 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .bg-3:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 740px) {
+    .bg-3 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .bg-3:last-child {
+        margin-right: 0; } }
+
+.bg-4 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .bg-4:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 740px) {
+    .bg-4 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .bg-4:last-child {
+        margin-right: 0; } }
+
 .play-button {
   border: 1px solid #cccccc;
   padding: 2px;
@@ -57,6 +138,9 @@ img.header {
 * {
   box-sizing: border-box;
   margin: 0; }
+
+body {
+  background-color: black; }
 
 .bg-1 {
   background: rgba(0, 56, 255, 0.65);

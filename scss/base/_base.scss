@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+body {
+  background-color: black;
+}
+
 // background images
 .bg-1 {
   @include transparent-bg-1;

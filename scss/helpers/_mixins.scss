@@ -84,6 +84,7 @@
   }
 }
 
+
 //header mixins
  @mixin header {
   height: 200px;
@@ -98,6 +99,7 @@
   // top: 30px;
 }
 
+
 //footer mixins
 @mixin footer {
   color: $off-white;
@@ -109,7 +111,6 @@
     display: inline-block;
   }
 }
-
 
 
 //button mixins

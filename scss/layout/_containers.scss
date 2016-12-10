@@ -6,3 +6,7 @@
   max-width: 500px;
   margin: auto;
 }
+
+.outer-container {
+  @include outer-container(500px);
+}

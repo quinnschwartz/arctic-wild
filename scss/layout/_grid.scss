@@ -1,0 +1,31 @@
+.row {
+  @include span-columns(12);
+}
+
+.bg-1 {
+  @include span-columns(12);
+  @media #{$brk-medium} {
+    @include span-columns(3 of 12);
+  }
+}
+
+.bg-2 {
+  @include span-columns(12);
+  @media #{$brk-medium} {
+    @include span-columns(3 of 12);
+  }
+}
+
+.bg-3 {
+  @include span-columns(12);
+  @media #{$brk-medium} {
+    @include span-columns(3 of 12);
+  }
+}
+
+.bg-4 {
+  @include span-columns(12);
+  @media #{$brk-medium} {
+    @include span-columns(3 of 12);
+  }
+}
