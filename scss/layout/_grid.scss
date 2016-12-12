@@ -13,30 +13,14 @@
     }
   }
   .bg-2 {
-    @include span-columns(12);
-    @media #{$brk-medium} {
-      @include span-columns(3 of 12);
-      @include outer-container(100%);
-      width: 240px;
-      margin: 0;
+    @extend .bg-1;
     }
-  }
   .bg-3 {
-    @include span-columns(12);
-    @media #{$brk-medium} {
-      @include span-columns(3 of 12);
-      width: 240px;
-      margin: 0;
+    @extend .bg-1;
     }
-  }
   .bg-4 {
-    @include span-columns(12);
-    @media #{$brk-medium} {
-      @include span-columns(3 of 12);
-      width: 240px;
-      margin: 0;
-    }
-  }
+    @extend .bg-1;
+    }  
   @media #{$brk-large} {
     @include outer-container(100%);
     margin: auto;

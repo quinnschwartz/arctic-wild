@@ -1,5 +1,8 @@
+
+
 body {
   color: $white;
+  @include font-face("helvetica", "/fonts/helvetica/helvetica-regular");
 }
 
 h2 {

@@ -9,19 +9,19 @@ body {
 }
 
 // background images
-.bg-1 {
+.bg-color-1 {
   @include transparent-bg-1;
 }
 
-.bg-2 {
+.bg-color-2 {
   @include transparent-bg-2;
 }
 
-.bg-3 {
+.bg-color-3 {
   @include transparent-bg-3;
 }
 
-.bg-4 {
+.bg-color-4 {
   @include transparent-bg-4;
 }
 
