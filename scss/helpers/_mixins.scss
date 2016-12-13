@@ -123,6 +123,13 @@
   font-size: 12px;
 }
 
+@mixin hover {
+  &:hover {
+    @include transform(scale(0.9));
+  }
+}
+
+
 // @mixin send-button {
 //   border: 1px solid $off-white;
 //   padding: 2px;

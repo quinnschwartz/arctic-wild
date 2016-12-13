@@ -98,13 +98,9 @@ hr {
   opacity: 0.5; }
 
 body {
-  color: white; }
-@font-face {
-  body {
-    font-family: "helvetica";
-    font-style: normal;
-    font-weight: normal;
-    src: url("/fonts/helvetica/helvetica-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/helvetica/helvetica-regular.woff2") format("woff2"), url("/fonts/helvetica/helvetica-regular.woff") format("woff"), url("/fonts/helvetica/helvetica-regular.ttf") format("truetype"), url("/fonts/helvetica/helvetica-regular.svg#helvetica") format("svg"); } }
+  color: white;
+  font-family: "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace; }
+
 h2 {
   font-size: 2em;
   margin-bottom: 5px; }
@@ -206,9 +202,21 @@ img.header {
   font-size: 12px;
   margin-right: 10px;
   margin-bottom: 50px; }
+  .play-button:hover {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9); }
 
 .icons {
   width: 30px;
   -webkit-filter: invert(100%); }
+  .icons:hover {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9); }
 
 /*# sourceMappingURL=main.css.map */

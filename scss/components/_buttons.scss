@@ -2,6 +2,7 @@
   @include play-button;
   margin-right: 10px;
   margin-bottom: 50px;
+  @include hover;
 }
 
 // .send-button {
