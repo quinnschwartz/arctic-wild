@@ -1,0 +1,59 @@
+header {
+  height: 100%;
+  background: url(../img/header-background.jpg) top center no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+}
+
+.header-navbar {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  .brand {
+    display: flex;
+    &:hover {
+      color: #DC7725;
+    }
+  }
+  ul {
+    display: flex;
+    li {
+      list-style: none;
+      margin-right: 40px;
+    &:last-child {
+      margin-right: 0;
+    }
+      a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+          color: #DC7725;
+        }
+      }
+    }
+  }
+}
+
+.video {
+  margin-top: 100px;
+  text-align: center;
+  h3 {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 100px;
+    margin-bottom: 1%;
+  }
+  hr {
+    margin: 0 450px;
+    height: 5px;
+    background-color: white;
+    margin-bottom: 2%;
+  }
+  .video-button {
+    margin-bottom: 10%;
+  }
+  .explore-button {
+    margin-bottom: 3%;
+  }
+}
