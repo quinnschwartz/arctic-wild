@@ -1,0 +1,28 @@
+.gallery-navbar {
+  background-image: url(../img/navbar-bg.jpg);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: gray;
+  padding: 20px;
+  border: 2px solid black;
+  ul {
+    text-decoration: none;
+    display: flex;
+    li {
+      list-style: none;
+      margin-left: 50px;
+      &:hover {
+        color: white;
+      }
+      &:first-child {
+        margin-left: -70px;
+      }
+    }
+  }
+  span {
+    &:hover {
+      color: white;
+    }
+  }
+}
