@@ -1,138 +1,26 @@
 //background mixins
 
-@mixin transparent-bg-1 {
-  background: $bg-color-1;
-  width: 100%;
-  height: 670px;
-  display: block;
-  position: relative;
-  &::after {
-    content: "";
-    background: $bg-image-1;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-  }
-}
 
-@mixin transparent-bg-2 {
-  background: $bg-color-2;
-  width: 100%;
-  height: 670px;
-  display: block;
-  position: relative;
-  &::after {
-    content: "";
-    background: $bg-image-2;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-  }
-}
-
-@mixin transparent-bg-3 {
-  background: $bg-color-3;
-  width: 100%;
-  height: 670px;
-  display: block;
-  position: relative;
-  &::after {
-    content: "";
-    background: $bg-image-3;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-  }
-}
-
-@mixin transparent-bg-4 {
-  background: $bg-color-4;
-  width: 100%;
-  height: 670px;
-  display: block;
-  position: relative;
-  &::after {
-    content: "";
-    background: $bg-image-4;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-  }
-}
 
 
 //header mixins
- @mixin header {
-  height: 200px;
-  width: 100%;
-  margin-bottom: 20px;
-  object-fit: cover;
-  object-position: 75% 25%;
-  overflow: hidden;
-  border: 3px solid white;
-  display: block;
-  // position: relative;
-  // top: 30px;
-}
+
+
+
+
+//content mixins
+
+
+
+
+//gallery mixins
+
+
 
 
 //footer mixins
-@mixin footer {
-  color: $off-white;
-  font-size: 13px;
-  > img {
-    display: inline-block;
-  }
-  > p {
-    display: inline-block;
-  }
-}
+
+
 
 
 //button mixins
-@mixin play-button {
-  border: 1px solid $off-white;
-  padding: 2px;
-  border-radius: 20px;
-  width: 120px;
-  text-align: center;
-  font-size: 12px;
-}
-
-@mixin hover {
-  &:hover {
-    @include transform(scale(0.9));
-  }
-}
-
-
-// @mixin send-button {
-//   border: 1px solid $off-white;
-//   padding: 2px;
-//   border-radius: 20px;
-//   width: 120px;
-// }
