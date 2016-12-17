@@ -11,13 +11,49 @@ html {
 body {
   color: white; }
 
+.bg-1 {
+  background-image: url(../img/raft.jpg);
+  width: 50%;
+  background-size: cover;
+  background-position: center; }
+
+.bg-2 {
+  background-image: url(../img/tent.jpg);
+  width: 25%;
+  background-size: cover;
+  background-position: center; }
+
+.bg-3 {
+  background-image: url(../img/backpack.jpg);
+  width: 25%;
+  background-size: cover;
+  background-position: center; }
+
+.bg-4 {
+  background-image: url(../img/canoe.jpg);
+  width: 25%;
+  background-size: cover;
+  background-position: center; }
+
+.bg-5 {
+  background-image: url(../img/creek.jpg);
+  width: 25%;
+  background-size: cover;
+  background-position: center; }
+
+.bg-6 {
+  background-image: url(../img/home.jpg);
+  width: 50%;
+  background-size: cover;
+  background-position: center; }
+
 .gallery-navbar {
   background-image: url(../img/navbar-bg.jpg);
   display: flex;
   justify-content: space-around;
   align-items: center;
   color: gray;
-  padding: 20px;
+  padding: 17px;
   border: 2px solid black; }
   .gallery-navbar ul {
     text-decoration: none;
@@ -29,8 +65,37 @@ body {
         color: white; }
       .gallery-navbar ul li:first-child {
         margin-left: -70px; }
+      .gallery-navbar ul li:last-child {
+        color: #DC7725; }
   .gallery-navbar span:hover {
     color: white; }
+
+.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+  height: 820px; }
+
+.image-gallery .bg-1, .image-gallery .bg-2, .image-gallery .bg-3, .image-gallery .bg-4, .image-gallery .bg-5, .image-gallery .bg-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .image-gallery .bg-1 .images, .image-gallery .bg-2 .images, .image-gallery .bg-3 .images, .image-gallery .bg-4 .images, .image-gallery .bg-5 .images, .image-gallery .bg-6 .images {
+    transition-duration: 250ms;
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+    border-radius: 100%;
+    background-color: rgba(4, 4, 4, 0.5);
+    margin: auto;
+    display: flex;
+    justify-content: center; }
+    .image-gallery .bg-1 .images img, .image-gallery .bg-2 .images img, .image-gallery .bg-3 .images img, .image-gallery .bg-4 .images img, .image-gallery .bg-5 .images img, .image-gallery .bg-6 .images img {
+      height: 40px;
+      width: 40px;
+      margin-top: 3px; }
+    .image-gallery .bg-1 .images:hover, .image-gallery .bg-2 .images:hover, .image-gallery .bg-3 .images:hover, .image-gallery .bg-4 .images:hover, .image-gallery .bg-5 .images:hover, .image-gallery .bg-6 .images:hover {
+      transform: scale(1.5); }
 
 header {
   height: 100%;
