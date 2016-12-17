@@ -96,6 +96,17 @@ body {
       margin-top: 3px; }
     .image-gallery .bg-1 .images:hover, .image-gallery .bg-2 .images:hover, .image-gallery .bg-3 .images:hover, .image-gallery .bg-4 .images:hover, .image-gallery .bg-5 .images:hover, .image-gallery .bg-6 .images:hover {
       transform: scale(1.5); }
+  .image-gallery .bg-1 hr, .image-gallery .bg-2 hr, .image-gallery .bg-3 hr, .image-gallery .bg-4 hr, .image-gallery .bg-5 hr, .image-gallery .bg-6 hr {
+    width: 50px;
+    height: 5px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    background-color: #DC7725;
+    border: none; }
+  .image-gallery .bg-1 h2, .image-gallery .bg-2 h2, .image-gallery .bg-3 h2, .image-gallery .bg-4 h2, .image-gallery .bg-5 h2, .image-gallery .bg-6 h2 {
+    margin-bottom: 30px;
+    margin-left: 30px;
+    font-size: 20px; }
 
 header {
   height: 100%;
