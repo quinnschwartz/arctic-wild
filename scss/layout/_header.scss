@@ -11,9 +11,6 @@ header {
   color: white;
   .brand {
     display: flex;
-    &:hover {
-      color: #DC7725;
-    }
   }
   ul {
     display: flex;
@@ -26,9 +23,6 @@ header {
       a {
         color: white;
         text-decoration: none;
-        &:hover {
-          color: #DC7725;
-        }
       }
     }
   }
@@ -45,8 +39,9 @@ header {
     margin-bottom: 1%;
   }
   hr {
-    margin: 0 450px;
     height: 5px;
+    width: 300px;
+    margin: auto;
     background-color: white;
     margin-bottom: 2%;
   }
@@ -54,6 +49,6 @@ header {
     margin-bottom: 10%;
   }
   .explore-button {
-    margin-bottom: 3%;
+    margin-bottom: 5%;
   }
 }
