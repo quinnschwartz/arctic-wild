@@ -19,6 +19,9 @@ body {
   @media screen and (max-width: 960px) {
     .bg-1 {
       width: 100%; } }
+  @media screen and (max-width: 760px) {
+    .bg-1 {
+      width: 100%; } }
 
 .bg-2 {
   background-image: url(../img/tent.jpg);
@@ -28,6 +31,9 @@ body {
   @media screen and (max-width: 960px) {
     .bg-2 {
       width: 50%; } }
+  @media screen and (max-width: 760px) {
+    .bg-2 {
+      width: 100%; } }
 
 .bg-3 {
   background-image: url(../img/backpack.jpg);
@@ -37,6 +43,9 @@ body {
   @media screen and (max-width: 960px) {
     .bg-3 {
       width: 50%; } }
+  @media screen and (max-width: 760px) {
+    .bg-3 {
+      width: 100%; } }
 
 .bg-4 {
   background-image: url(../img/canoe.jpg);
@@ -46,6 +55,9 @@ body {
   @media screen and (max-width: 960px) {
     .bg-4 {
       width: 50%; } }
+  @media screen and (max-width: 760px) {
+    .bg-4 {
+      width: 100%; } }
 
 .bg-5 {
   background-image: url(../img/creek.jpg);
@@ -55,6 +67,9 @@ body {
   @media screen and (max-width: 960px) {
     .bg-5 {
       width: 50%; } }
+  @media screen and (max-width: 760px) {
+    .bg-5 {
+      width: 100%; } }
 
 .bg-6 {
   background-image: url(../img/home.jpg);
@@ -62,6 +77,9 @@ body {
   background-size: cover;
   background-position: center; }
   @media screen and (max-width: 960px) {
+    .bg-6 {
+      width: 100%; } }
+  @media screen and (max-width: 760px) {
     .bg-6 {
       width: 100%; } }
 
@@ -95,6 +113,10 @@ body {
   @media screen and (max-width: 960px) {
     .image-gallery {
       height: 1678px; } }
+  @media screen and (max-width: 760px) {
+    .image-gallery {
+      height: 1755;
+      width: 90%; } }
 
 .image-gallery .bg-1, .image-gallery .bg-2, .image-gallery .bg-3, .image-gallery .bg-4, .image-gallery .bg-5, .image-gallery .bg-6 {
   display: flex;

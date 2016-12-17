@@ -37,6 +37,10 @@
   @media #{$brk-medium} {
     height: 1678px;
   }
+  @media #{$brk-small} {
+    height: 1755;
+    width: 90%;
+  }
 }
 
 .image-gallery {
