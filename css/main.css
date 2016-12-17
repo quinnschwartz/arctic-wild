@@ -112,7 +112,7 @@ body {
   @media screen and (max-width: 760px) {
     .image-gallery {
       height: 1755;
-      width: 90%; } }
+      width: 100%; } }
 
 .image-gallery .bg-1, .image-gallery .bg-2, .image-gallery .bg-3, .image-gallery .bg-4, .image-gallery .bg-5, .image-gallery .bg-6 {
   display: flex;
