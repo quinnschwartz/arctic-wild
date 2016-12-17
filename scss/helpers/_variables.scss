@@ -10,5 +10,5 @@ $bg-image-1: url(../img/.jpg);
 
 
 //media-queries
-$brk-medium: 'screen and (min-width: 1000px)';
-$brk-large: 'screen and (min-width: 1300px)';
+$brk-medium: 'screen and (max-width: 960px)';
+$brk-small: 'screen and (min-width: 1300px)';

@@ -14,6 +14,9 @@ body {
   width: 50%;
   background-size: cover;
   background-position: center;
+  @media #{$brk-medium} {
+    width: 100%;
+  }
 }
 
 .bg-2 {
@@ -21,6 +24,9 @@ body {
   width: 25%;
   background-size: cover;
   background-position: center;
+  @media #{$brk-medium} {
+    width: 50%;
+  }
 }
 
 .bg-3 {
@@ -28,7 +34,9 @@ body {
   width: 25%;
   background-size: cover;
   background-position: center;
-
+  @media #{$brk-medium} {
+    width: 50%;
+  }
 }
 
 .bg-4 {
@@ -36,6 +44,9 @@ body {
   width: 25%;
   background-size: cover;
   background-position: center;
+  @media #{$brk-medium} {
+    width: 50%;
+  }
 }
 
 .bg-5 {
@@ -43,6 +54,9 @@ body {
   width: 25%;
   background-size: cover;
   background-position: center;
+  @media #{$brk-medium} {
+    width: 50%;
+  }
 }
 
 .bg-6 {
@@ -50,6 +64,9 @@ body {
   width: 50%;
   background-size: cover;
   background-position: center;
+  @media #{$brk-medium} {
+    width: 100%;
+  }
 }
 
 
